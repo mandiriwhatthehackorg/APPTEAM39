@@ -99,6 +99,9 @@ enum BasePref {
 
 enum IdentifierCell {
     static let onboardingView       = "onboardingView"
+    static let cardCollection       = "cardCollection"
+    static let HowCollection       = "HowCollection"
+
 }
 
 enum BasePrefKey {

@@ -104,7 +104,7 @@ extension KonfirmasiViewController : UITextFieldDelegate {
                 if self.thirdText.text != "" {
                     if self.fourthText.text != "" {
                         if self.FiveText.text != "" {
-                            print("gdfgdfg")
+                            DaftarinKartuViewController.navigateToModule(self)
                         }
                     }
                 }

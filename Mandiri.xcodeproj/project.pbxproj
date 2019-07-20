@@ -46,6 +46,13 @@
 		CEABE1D822E3352C003D7B26 /* VerifikasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1D722E3352C003D7B26 /* VerifikasiViewController.swift */; };
 		CEABE1DA22E337FF003D7B26 /* SetPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1D922E337FF003D7B26 /* SetPinViewController.swift */; };
 		CEABE1DC22E338E0003D7B26 /* KonfirmasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1DB22E338E0003D7B26 /* KonfirmasiViewController.swift */; };
+		CEABE1E022E350E6003D7B26 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1DF22E350E6003D7B26 /* Dashboard.storyboard */; };
+		CEABE1E322E3533E003D7B26 /* DaftarinKartuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1E222E3533E003D7B26 /* DaftarinKartuViewController.swift */; };
+		CEABE1E522E35A35003D7B26 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1E422E35A35003D7B26 /* HomeViewController.swift */; };
+		CEABE1E722E35DF4003D7B26 /* cardCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1E622E35DF4003D7B26 /* cardCollection.xib */; };
+		CEABE1EB22E36590003D7B26 /* cardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */; };
+		CEABE1ED22E37066003D7B26 /* HowCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1EC22E37066003D7B26 /* HowCollection.xib */; };
+		CEABE1EF22E37142003D7B26 /* HowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */; };
 		F38FB93E0F93AA9FC1E8A98A /* Pods_Mandiri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C936D2FC94145BCC0B10B5 /* Pods_Mandiri.framework */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +113,13 @@
 		CEABE1D722E3352C003D7B26 /* VerifikasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifikasiViewController.swift; sourceTree = "<group>"; };
 		CEABE1D922E337FF003D7B26 /* SetPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinViewController.swift; sourceTree = "<group>"; };
 		CEABE1DB22E338E0003D7B26 /* KonfirmasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfirmasiViewController.swift; sourceTree = "<group>"; };
+		CEABE1DF22E350E6003D7B26 /* Dashboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dashboard.storyboard; sourceTree = "<group>"; };
+		CEABE1E222E3533E003D7B26 /* DaftarinKartuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaftarinKartuViewController.swift; sourceTree = "<group>"; };
+		CEABE1E422E35A35003D7B26 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CEABE1E622E35DF4003D7B26 /* cardCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = cardCollection.xib; sourceTree = "<group>"; };
+		CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEABE1EC22E37066003D7B26 /* HowCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowCollection.xib; sourceTree = "<group>"; };
+		CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3DBD4571617C43630275F01 /* Pods-MandiriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.debug.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F73D39990F3066EFF78C5825 /* Pods-MandiriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.release.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -282,6 +296,7 @@
 		CE04E63722E2C802007B6B90 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				CEABE1DD22E346A3003D7B26 /* Dashboard */,
 				CE04E64C22E2F421007B6B90 /* Activate */,
 				CE04E64522E2E7D5007B6B90 /* SignIn */,
 				CE04E63822E2C8B4007B6B90 /* Onboarding */,
@@ -376,6 +391,36 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		CEABE1DD22E346A3003D7B26 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE1E122E352E9003D7B26 /* Controller */,
+				CEABE1DE22E346B2003D7B26 /* Assets */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		CEABE1DE22E346B2003D7B26 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE1DF22E350E6003D7B26 /* Dashboard.storyboard */,
+				CEABE1E622E35DF4003D7B26 /* cardCollection.xib */,
+				CEABE1EC22E37066003D7B26 /* HowCollection.xib */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CEABE1E122E352E9003D7B26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEABE1E222E3533E003D7B26 /* DaftarinKartuViewController.swift */,
+				CEABE1E422E35A35003D7B26 /* HomeViewController.swift */,
+				CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */,
+				CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -460,9 +505,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEABE1ED22E37066003D7B26 /* HowCollection.xib in Resources */,
 				CE04E64822E2E9E9007B6B90 /* Signin.storyboard in Resources */,
+				CEABE1E722E35DF4003D7B26 /* cardCollection.xib in Resources */,
 				CE04E5FC22E22754007B6B90 /* LaunchScreen.storyboard in Resources */,
 				CE04E5F922E22754007B6B90 /* Assets.xcassets in Resources */,
+				CEABE1E022E350E6003D7B26 /* Dashboard.storyboard in Resources */,
 				CE04E5F722E22753007B6B90 /* Main.storyboard in Resources */,
 				CE04E63C22E2C9D7007B6B90 /* Onboarding.storyboard in Resources */,
 				CE04E64022E2CC4A007B6B90 /* onboardingView.xib in Resources */,
@@ -550,6 +598,7 @@
 			files = (
 				CE04E62F22E2B3E1007B6B90 /* BaseViewController.swift in Sources */,
 				CE04E63122E2B40E007B6B90 /* BasePresenterImpl.swift in Sources */,
+				CEABE1EB22E36590003D7B26 /* cardCollectionViewCell.swift in Sources */,
 				CE04E5F422E22753007B6B90 /* ViewController.swift in Sources */,
 				CE04E63E22E2CA34007B6B90 /* OnboardingViewController.swift in Sources */,
 				CEABE1DA22E337FF003D7B26 /* SetPinViewController.swift in Sources */,
@@ -558,6 +607,7 @@
 				CE04E61C22E2AB23007B6B90 /* BaseNetworkRequest.swift in Sources */,
 				CE04E5F222E22753007B6B90 /* AppDelegate.swift in Sources */,
 				CEABE1DC22E338E0003D7B26 /* KonfirmasiViewController.swift in Sources */,
+				CEABE1EF22E37142003D7B26 /* HowCollectionViewCell.swift in Sources */,
 				CE04E64422E2D0B8007B6B90 /* OnboardingModel.swift in Sources */,
 				CE04E64B22E2F127007B6B90 /* SignInViewController.swift in Sources */,
 				CE04E65222E2F4D9007B6B90 /* CameraController.swift in Sources */,
@@ -575,8 +625,10 @@
 				CE04E65622E30495007B6B90 /* ResultKTPViewController.swift in Sources */,
 				CEABE1D622E33187003D7B26 /* PopupSignInViewController.swift in Sources */,
 				CE04E62722E2AD5B007B6B90 /* BaseService.swift in Sources */,
+				CEABE1E522E35A35003D7B26 /* HomeViewController.swift in Sources */,
 				CE04E62422E2AD20007B6B90 /* TokenJwtDao.swift in Sources */,
 				CE04E62C22E2B2C7007B6B90 /* Helper.swift in Sources */,
+				CEABE1E322E3533E003D7B26 /* DaftarinKartuViewController.swift in Sources */,
 				CE04E65422E2F64C007B6B90 /* ActivateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
