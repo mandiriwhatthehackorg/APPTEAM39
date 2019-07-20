@@ -30,26 +30,26 @@
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_investment" translatesAutoresizingMaskIntoConstraints="NO" id="umq-ic-P3O">
-                                <rect key="frame" x="112.5" y="180" width="150" height="128"/>
+                                <rect key="frame" x="112.5" y="190" width="150" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="2Ev-Lt-sqD"/>
+                                    <constraint firstAttribute="height" constant="150" id="2Ev-Lt-sqD"/>
                                     <constraint firstAttribute="width" constant="150" id="7hh-ly-uEL"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saving" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CXf-7f-hnt">
-                                <rect key="frame" x="151.5" y="338" width="72" height="27.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="23"/>
+                                <rect key="frame" x="147.5" y="370" width="80" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi3-mU-vGq">
-                                <rect key="frame" x="20" y="395.5" width="335" height="61"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="20" y="440" width="335" height="64.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="v2M-qc-nTf">
-                                <rect key="frame" x="60" y="508.5" width="255" height="40"/>
+                                <rect key="frame" x="60" y="564.5" width="255" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ck-HB-yKJ">
                                         <rect key="frame" x="0.0" y="0.0" width="112.5" height="40"/>
@@ -57,7 +57,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="QHS-TE-vPK"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -76,7 +76,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="i2m-aB-43P"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
                                         <state key="normal" title="Aktivasi">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -94,13 +94,13 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Fi3-mU-vGq" firstAttribute="top" secondItem="CXf-7f-hnt" secondAttribute="bottom" constant="30" id="72h-8U-dcb"/>
+                            <constraint firstItem="Fi3-mU-vGq" firstAttribute="top" secondItem="CXf-7f-hnt" secondAttribute="bottom" constant="40" id="72h-8U-dcb"/>
                             <constraint firstItem="CXf-7f-hnt" firstAttribute="centerX" secondItem="HtP-5O-K1V" secondAttribute="centerX" id="GnJ-sn-EME"/>
                             <constraint firstItem="xaL-Yj-usf" firstAttribute="centerX" secondItem="HtP-5O-K1V" secondAttribute="centerX" id="Kp8-B1-wbo"/>
                             <constraint firstItem="CXf-7f-hnt" firstAttribute="top" secondItem="umq-ic-P3O" secondAttribute="bottom" constant="30" id="Ltn-jo-k7C"/>
-                            <constraint firstItem="umq-ic-P3O" firstAttribute="top" secondItem="xaL-Yj-usf" secondAttribute="bottom" constant="50" id="PNN-Cu-vPV"/>
+                            <constraint firstItem="umq-ic-P3O" firstAttribute="top" secondItem="xaL-Yj-usf" secondAttribute="bottom" constant="60" id="PNN-Cu-vPV"/>
                             <constraint firstItem="v2M-qc-nTf" firstAttribute="leading" secondItem="HtP-5O-K1V" secondAttribute="leading" constant="60" id="aJ5-e8-8v3"/>
-                            <constraint firstItem="v2M-qc-nTf" firstAttribute="top" secondItem="Fi3-mU-vGq" secondAttribute="bottom" constant="52" id="cRJ-XH-TSg"/>
+                            <constraint firstItem="v2M-qc-nTf" firstAttribute="top" secondItem="Fi3-mU-vGq" secondAttribute="bottom" constant="60" id="cRJ-XH-TSg"/>
                             <constraint firstItem="xaL-Yj-usf" firstAttribute="top" secondItem="HtP-5O-K1V" secondAttribute="top" constant="40" id="exv-Ll-Iq8"/>
                             <constraint firstAttribute="trailing" secondItem="v2M-qc-nTf" secondAttribute="trailing" constant="60" id="jwk-MK-5jN"/>
                             <constraint firstItem="Fi3-mU-vGq" firstAttribute="leading" secondItem="HtP-5O-K1V" secondAttribute="leading" constant="20" id="o15-Oe-wOv"/>

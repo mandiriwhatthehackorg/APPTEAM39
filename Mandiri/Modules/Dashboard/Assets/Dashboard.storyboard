@@ -77,10 +77,10 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sZm-m9-0Cg">
-                                <rect key="frame" x="46" y="342" width="283" height="36"/>
+                                <rect key="frame" x="46" y="342" width="283" height="40"/>
                                 <color key="backgroundColor" red="0.0" green="0.23921568630000001" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="36" id="izX-KP-zNg"/>
+                                    <constraint firstAttribute="height" constant="40" id="izX-KP-zNg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="DAFTAR">
@@ -132,6 +132,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="barTintColor" red="0.4039215686" green="0.69803921570000005" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="rNQ-X6-X7Z" kind="relationship" relationship="viewControllers" id="xCH-6N-1Ph"/>
@@ -155,7 +156,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="761"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odA-N7-F4E">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="761"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="800"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7TE-37-mc7">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -175,15 +176,15 @@
                                                     <constraint firstItem="Ob3-kC-8bY" firstAttribute="centerX" secondItem="7TE-37-mc7" secondAttribute="centerX" id="qrX-wi-V16"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Halo," textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esQ-Gf-7IL">
-                                                <rect key="frame" x="20" y="64" width="39.5" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Halo," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esQ-Gf-7IL">
+                                                <rect key="frame" x="20" y="64" width="47.5" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tommy Dwi Putranto" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P58-LN-blq">
-                                                <rect key="frame" x="20" y="93" width="159" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="20" y="96" width="207" height="26.5"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -202,7 +203,7 @@
                                                 </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6a-2D-DOo">
-                                                <rect key="frame" x="0.0" y="114" width="375" height="250"/>
+                                                <rect key="frame" x="0.0" y="122.5" width="375" height="250"/>
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="99Y-i8-kBt">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
@@ -244,7 +245,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-FL-GeS">
-                                                <rect key="frame" x="0.0" y="364" width="375" height="397"/>
+                                                <rect key="frame" x="0.0" y="372.5" width="375" height="427.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YE2-3p-ufe">
                                                         <rect key="frame" x="187" y="0.0" width="1" height="50"/>
@@ -284,7 +285,7 @@
                                                                 </constraints>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                        <integer key="value" value="8"/>
+                                                                        <integer key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -299,7 +300,7 @@
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
@@ -333,7 +334,7 @@
                                                                 </constraints>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                        <integer key="value" value="8"/>
+                                                                        <integer key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -348,7 +349,7 @@
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
@@ -404,7 +405,7 @@
                                                                 </constraints>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                        <integer key="value" value="8"/>
+                                                                        <integer key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -419,7 +420,7 @@
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
@@ -469,7 +470,7 @@
                                                                 </constraints>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                        <integer key="value" value="8"/>
+                                                                        <integer key="value" value="4"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -484,7 +485,7 @@
                                                         </constraints>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
@@ -495,7 +496,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BrV-8q-lOq">
-                                                        <rect key="frame" x="28" y="272" width="347" height="105"/>
+                                                        <rect key="frame" x="28" y="284" width="347" height="123.5"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Dpn-gr-CdX">
                                                             <size key="itemSize" width="50" height="50"/>
@@ -505,7 +506,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="fw6-Yo-655">
-                                                                <rect key="frame" x="50" y="27.5" width="50" height="50"/>
+                                                                <rect key="frame" x="50" y="0.0" width="50" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -514,7 +515,7 @@
                                                             </collectionViewCell>
                                                         </cells>
                                                         <collectionReusableView key="sectionHeaderView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bIh-4x-qdt">
-                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="105"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="50" height="123.5"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                         </collectionReusableView>
                                                         <connections>
@@ -545,7 +546,7 @@
                                                     <constraint firstItem="qbb-2d-Bv7" firstAttribute="top" secondItem="Pnw-FL-GeS" secondAttribute="top" constant="20" id="rT9-Tn-Trb"/>
                                                     <constraint firstAttribute="trailing" secondItem="BrV-8q-lOq" secondAttribute="trailing" id="scD-lU-Z6f"/>
                                                     <constraint firstItem="BrV-8q-lOq" firstAttribute="leading" secondItem="Pnw-FL-GeS" secondAttribute="leading" constant="28" id="tJA-wL-eyt"/>
-                                                    <constraint firstItem="BrV-8q-lOq" firstAttribute="top" secondItem="VUc-Wx-4ip" secondAttribute="bottom" id="y3Z-a2-XOE"/>
+                                                    <constraint firstItem="BrV-8q-lOq" firstAttribute="top" secondItem="VUc-Wx-4ip" secondAttribute="bottom" constant="12" id="y3Z-a2-XOE"/>
                                                     <constraint firstItem="YE2-3p-ufe" firstAttribute="top" secondItem="Pnw-FL-GeS" secondAttribute="top" id="yFD-Yd-ejU"/>
                                                 </constraints>
                                             </view>
@@ -566,7 +567,7 @@
                                             <constraint firstAttribute="trailing" secondItem="s6a-2D-DOo" secondAttribute="trailing" id="eO4-gX-K3a"/>
                                             <constraint firstItem="esQ-Gf-7IL" firstAttribute="leading" secondItem="odA-N7-F4E" secondAttribute="leading" constant="20" id="ehO-Um-AbZ"/>
                                             <constraint firstAttribute="trailing" secondItem="7TE-37-mc7" secondAttribute="trailing" id="hfl-Lg-nJd"/>
-                                            <constraint firstAttribute="height" constant="761" id="taW-6W-D1E"/>
+                                            <constraint firstAttribute="height" constant="800" id="taW-6W-D1E"/>
                                             <constraint firstItem="P58-LN-blq" firstAttribute="leading" secondItem="odA-N7-F4E" secondAttribute="leading" constant="20" id="ut2-U1-SCg"/>
                                             <constraint firstItem="7TE-37-mc7" firstAttribute="leading" secondItem="odA-N7-F4E" secondAttribute="leading" id="wpg-H6-594"/>
                                             <constraint firstItem="P58-LN-blq" firstAttribute="top" secondItem="esQ-Gf-7IL" secondAttribute="bottom" constant="8" id="ya8-bn-1cW"/>
@@ -592,7 +593,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jz2-mR-dKB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Home" id="p8U-Pd-Wly"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="icon_home" selectedImage="icon_home" id="p8U-Pd-Wly"/>
                     <size key="freeformSize" width="375" height="830"/>
                     <connections>
                         <outlet property="carColection" destination="99Y-i8-kBt" id="kSs-Vz-vJ4"/>
@@ -689,7 +690,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="8"/>
+                                                <integer key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -821,7 +822,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -837,7 +838,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -920,7 +921,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -936,7 +937,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -1019,7 +1020,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -1035,7 +1036,7 @@
                                                         </state>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                                <integer key="value" value="8"/>
+                                                                <integer key="value" value="4"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </button>
@@ -1108,7 +1109,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RH0-ya-pqt"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Tabungan" id="qEl-Y4-liv"/>
+                    <tabBarItem key="tabBarItem" title="Tabungan" image="icon_tabungan" selectedImage="icon_tabungan" springLoaded="YES" id="qEl-Y4-liv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g15-K0-qOq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1172,7 +1173,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="8"/>
+                                                <integer key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
@@ -1247,7 +1248,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+300%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4o-nz-T4K">
-                                                <rect key="frame" x="35" y="82.5" width="55.5" height="21"/>
+                                                <rect key="frame" x="34.5" y="82.5" width="56" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.38823529410000002" green="0.7843137255" blue="0.51372549020000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <nil key="highlightedColor"/>
@@ -1268,7 +1269,7 @@
                                         <rect key="frame" x="250" y="51" width="125" height="128"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bulan ini" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Zl-fL-MXz">
-                                                <rect key="frame" x="30.5" y="20" width="64.5" height="21"/>
+                                                <rect key="frame" x="30" y="20" width="65" height="21"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1315,7 +1316,7 @@
                                                 </state>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                        <integer key="value" value="8"/>
+                                                        <integer key="value" value="4"/>
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
@@ -1323,13 +1324,13 @@
                                                 </connections>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status Investasi" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dci-wj-GdU">
-                                                <rect key="frame" x="8" y="4" width="89.5" height="14.5"/>
+                                                <rect key="frame" x="20" y="4" width="89.5" height="14.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moderat" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VP3-RJ-91J">
-                                                <rect key="frame" x="8" y="20.5" width="73.5" height="24"/>
+                                                <rect key="frame" x="20" y="20.5" width="73.5" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -1337,12 +1338,12 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="dci-wj-GdU" firstAttribute="leading" secondItem="KJS-N2-qlB" secondAttribute="leading" constant="8" id="4zl-nf-7gx"/>
+                                            <constraint firstItem="dci-wj-GdU" firstAttribute="leading" secondItem="KJS-N2-qlB" secondAttribute="leading" constant="20" id="4zl-nf-7gx"/>
                                             <constraint firstItem="VP3-RJ-91J" firstAttribute="top" secondItem="dci-wj-GdU" secondAttribute="bottom" constant="2" id="5aV-yG-5tQ"/>
-                                            <constraint firstAttribute="trailing" secondItem="6Ly-I8-Ym0" secondAttribute="trailing" constant="20" id="IQd-4O-uLk"/>
-                                            <constraint firstItem="VP3-RJ-91J" firstAttribute="leading" secondItem="KJS-N2-qlB" secondAttribute="leading" constant="8" id="VyY-r7-cLy"/>
-                                            <constraint firstItem="6Ly-I8-Ym0" firstAttribute="centerY" secondItem="KJS-N2-qlB" secondAttribute="centerY" id="azf-Qa-0va"/>
+                                            <constraint firstItem="6Ly-I8-Ym0" firstAttribute="top" secondItem="KJS-N2-qlB" secondAttribute="top" constant="11.5" id="904-y4-9IG"/>
+                                            <constraint firstItem="VP3-RJ-91J" firstAttribute="leading" secondItem="KJS-N2-qlB" secondAttribute="leading" constant="20" id="VyY-r7-cLy"/>
                                             <constraint firstItem="dci-wj-GdU" firstAttribute="top" secondItem="KJS-N2-qlB" secondAttribute="top" constant="4" id="n2C-m7-8cn"/>
+                                            <constraint firstAttribute="trailing" secondItem="6Ly-I8-Ym0" secondAttribute="trailing" constant="20" id="x8y-xd-PYX"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1356,19 +1357,19 @@
                                     <constraint firstItem="gZr-v2-X53" firstAttribute="leading" secondItem="tLT-a2-bik" secondAttribute="trailing" id="CS7-7a-NoE"/>
                                     <constraint firstItem="DMZ-gg-sNm" firstAttribute="leading" secondItem="gZr-v2-X53" secondAttribute="trailing" id="Gh0-tO-2Eg"/>
                                     <constraint firstAttribute="trailing" secondItem="6WE-HY-8ow" secondAttribute="trailing" constant="40" id="JgE-bQ-qXi"/>
+                                    <constraint firstItem="KJS-N2-qlB" firstAttribute="trailing" secondItem="EQt-Cj-93f" secondAttribute="trailing" id="R9B-8z-iDJ"/>
                                     <constraint firstItem="tLT-a2-bik" firstAttribute="width" secondItem="yl5-wg-4P6" secondAttribute="width" multiplier="1/3" id="S6b-m4-kH6"/>
                                     <constraint firstAttribute="trailing" secondItem="DMZ-gg-sNm" secondAttribute="trailing" id="Sf5-Dc-uJY"/>
                                     <constraint firstItem="DMZ-gg-sNm" firstAttribute="top" secondItem="6WE-HY-8ow" secondAttribute="bottom" constant="3" id="Uff-a6-s3z"/>
                                     <constraint firstItem="gZr-v2-X53" firstAttribute="width" secondItem="yl5-wg-4P6" secondAttribute="width" multiplier="1/3" id="Vch-aa-3aC"/>
+                                    <constraint firstAttribute="bottom" secondItem="KJS-N2-qlB" secondAttribute="bottom" id="bLy-07-y51"/>
                                     <constraint firstItem="4fx-Iq-Yy7" firstAttribute="top" secondItem="EQt-Cj-93f" secondAttribute="bottom" constant="4" id="ceE-pF-kho"/>
                                     <constraint firstItem="gZr-v2-X53" firstAttribute="top" secondItem="6WE-HY-8ow" secondAttribute="bottom" constant="3" id="g8C-kl-MEV"/>
                                     <constraint firstItem="KJS-N2-qlB" firstAttribute="leading" secondItem="yl5-wg-4P6" secondAttribute="leading" id="hCW-Nr-c7D"/>
                                     <constraint firstItem="KJS-N2-qlB" firstAttribute="top" secondItem="4fx-Iq-Yy7" secondAttribute="bottom" id="kAx-Q2-l3N"/>
                                     <constraint firstItem="EQt-Cj-93f" firstAttribute="leading" secondItem="yl5-wg-4P6" secondAttribute="leading" id="rc1-82-kK3"/>
-                                    <constraint firstAttribute="trailing" secondItem="KJS-N2-qlB" secondAttribute="trailing" id="tub-FK-zSk"/>
                                     <constraint firstItem="6WE-HY-8ow" firstAttribute="leading" secondItem="yl5-wg-4P6" secondAttribute="leading" constant="40" id="vqA-uZ-mPG"/>
                                     <constraint firstItem="4fx-Iq-Yy7" firstAttribute="centerX" secondItem="yl5-wg-4P6" secondAttribute="centerX" id="y2y-gk-UK3"/>
-                                    <constraint firstAttribute="bottom" secondItem="KJS-N2-qlB" secondAttribute="bottom" id="zbu-bk-QGP"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -1387,7 +1388,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="H2c-Mr-8eJ"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Investasi" id="34H-SC-vOB"/>
+                    <tabBarItem key="tabBarItem" title="Investasi" image="icon_investasi" selectedImage="icon_investasi" id="34H-SC-vOB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RkC-hm-2fi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1574,7 +1575,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="8"/>
+                                                <integer key="value" value="4"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
@@ -2332,8 +2333,11 @@
         <image name="icon_arrow_right" width="4000" height="4000"/>
         <image name="icon_back" width="50" height="50"/>
         <image name="icon_card" width="4000" height="4000"/>
+        <image name="icon_home" width="30" height="30"/>
+        <image name="icon_investasi" width="30" height="30"/>
         <image name="icon_notification" width="4000" height="4000"/>
         <image name="icon_settings" width="4000" height="4000"/>
+        <image name="icon_tabungan" width="30" height="30"/>
         <image name="icon_topup" width="4000" height="4000"/>
         <image name="logo_white" width="4000" height="2100"/>
     </resources>
