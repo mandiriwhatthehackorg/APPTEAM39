@@ -16,13 +16,16 @@ class FormInvestasiViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func backPage(_ sender: Any) {
+        self.dismissPage()
+    }
 }
 
 extension FormInvestasiViewController {
     static func navigateToModule(_ caller: UIViewController) {
         let sb = UIStoryboard(name:"Dashboard",bundle: nil)
         let vc = sb.instantiateViewController(withIdentifier: "FormInvestasiViewController") as! FormInvestasiViewController
-        caller.present(vc, animated: false, completion: nil)
+        caller.presentDetail(vc)
         
     }
 }

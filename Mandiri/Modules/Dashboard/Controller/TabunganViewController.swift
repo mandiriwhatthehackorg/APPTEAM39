@@ -30,4 +30,12 @@ class TabunganViewController: UIViewController {
 //        }
 //    }
     
+    @IBAction func investYuk(_ sender: Any) {
+        FormInvestasiViewController.navigateToModule(self)
+    }
+    
+    @IBAction func settingsAction(_ sender: Any) {
+        
+    }
+    
 }
