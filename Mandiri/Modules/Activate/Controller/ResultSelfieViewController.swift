@@ -26,7 +26,7 @@ class ResultSelfieViewController: UIViewController {
     }
     
     @IBAction func ReviewPhoto(_ sender: Any) {
-        //SelfieViewController.navigateToModule(self)
+        ReviewResultViewController.navigateToModule(self)
     }
     
     

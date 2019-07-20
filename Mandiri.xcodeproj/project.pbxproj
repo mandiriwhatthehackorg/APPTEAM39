@@ -42,6 +42,10 @@
 		CE04E65822E309E2007B6B90 /* SelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04E65722E309E2007B6B90 /* SelfieViewController.swift */; };
 		CE04E65A22E30C6B007B6B90 /* ResultSelfieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04E65922E30C6B007B6B90 /* ResultSelfieViewController.swift */; };
 		CE04E65C22E31881007B6B90 /* ReviewResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04E65B22E31881007B6B90 /* ReviewResultViewController.swift */; };
+		CEABE1D622E33187003D7B26 /* PopupSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1D522E33187003D7B26 /* PopupSignInViewController.swift */; };
+		CEABE1D822E3352C003D7B26 /* VerifikasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1D722E3352C003D7B26 /* VerifikasiViewController.swift */; };
+		CEABE1DA22E337FF003D7B26 /* SetPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1D922E337FF003D7B26 /* SetPinViewController.swift */; };
+		CEABE1DC22E338E0003D7B26 /* KonfirmasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1DB22E338E0003D7B26 /* KonfirmasiViewController.swift */; };
 		F38FB93E0F93AA9FC1E8A98A /* Pods_Mandiri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C936D2FC94145BCC0B10B5 /* Pods_Mandiri.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +102,10 @@
 		CE04E65722E309E2007B6B90 /* SelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieViewController.swift; sourceTree = "<group>"; };
 		CE04E65922E30C6B007B6B90 /* ResultSelfieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultSelfieViewController.swift; sourceTree = "<group>"; };
 		CE04E65B22E31881007B6B90 /* ReviewResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewResultViewController.swift; sourceTree = "<group>"; };
+		CEABE1D522E33187003D7B26 /* PopupSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupSignInViewController.swift; sourceTree = "<group>"; };
+		CEABE1D722E3352C003D7B26 /* VerifikasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifikasiViewController.swift; sourceTree = "<group>"; };
+		CEABE1D922E337FF003D7B26 /* SetPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetPinViewController.swift; sourceTree = "<group>"; };
+		CEABE1DB22E338E0003D7B26 /* KonfirmasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KonfirmasiViewController.swift; sourceTree = "<group>"; };
 		D3DBD4571617C43630275F01 /* Pods-MandiriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.debug.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F73D39990F3066EFF78C5825 /* Pods-MandiriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.release.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -331,6 +339,9 @@
 			isa = PBXGroup;
 			children = (
 				CE04E64A22E2F127007B6B90 /* SignInViewController.swift */,
+				CEABE1D722E3352C003D7B26 /* VerifikasiViewController.swift */,
+				CEABE1D922E337FF003D7B26 /* SetPinViewController.swift */,
+				CEABE1DB22E338E0003D7B26 /* KonfirmasiViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,6 +371,7 @@
 				CE04E65722E309E2007B6B90 /* SelfieViewController.swift */,
 				CE04E65922E30C6B007B6B90 /* ResultSelfieViewController.swift */,
 				CE04E65B22E31881007B6B90 /* ReviewResultViewController.swift */,
+				CEABE1D522E33187003D7B26 /* PopupSignInViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -540,15 +552,18 @@
 				CE04E63122E2B40E007B6B90 /* BasePresenterImpl.swift in Sources */,
 				CE04E5F422E22753007B6B90 /* ViewController.swift in Sources */,
 				CE04E63E22E2CA34007B6B90 /* OnboardingViewController.swift in Sources */,
+				CEABE1DA22E337FF003D7B26 /* SetPinViewController.swift in Sources */,
 				CE04E65A22E30C6B007B6B90 /* ResultSelfieViewController.swift in Sources */,
 				CE04E64222E2CE37007B6B90 /* OnboardCollectionViewCell.swift in Sources */,
 				CE04E61C22E2AB23007B6B90 /* BaseNetworkRequest.swift in Sources */,
 				CE04E5F222E22753007B6B90 /* AppDelegate.swift in Sources */,
+				CEABE1DC22E338E0003D7B26 /* KonfirmasiViewController.swift in Sources */,
 				CE04E64422E2D0B8007B6B90 /* OnboardingModel.swift in Sources */,
 				CE04E64B22E2F127007B6B90 /* SignInViewController.swift in Sources */,
 				CE04E65222E2F4D9007B6B90 /* CameraController.swift in Sources */,
 				CE04E63622E2B7A3007B6B90 /* SwinjectStoryboard+Setup.swift in Sources */,
 				CE04E61722E2AAC2007B6B90 /* AlamofireDataRequestExtensions.swift in Sources */,
+				CEABE1D822E3352C003D7B26 /* VerifikasiViewController.swift in Sources */,
 				CE04E65822E309E2007B6B90 /* SelfieViewController.swift in Sources */,
 				CE04E61522E2AAA2007B6B90 /* RestError.swift in Sources */,
 				CE04E62A22E2B2A1007B6B90 /* Preference.swift in Sources */,
@@ -558,6 +573,7 @@
 				CE04E61322E2AA75007B6B90 /* Restful.swift in Sources */,
 				CE04E63422E2B521007B6B90 /* BaseAssembly.swift in Sources */,
 				CE04E65622E30495007B6B90 /* ResultKTPViewController.swift in Sources */,
+				CEABE1D622E33187003D7B26 /* PopupSignInViewController.swift in Sources */,
 				CE04E62722E2AD5B007B6B90 /* BaseService.swift in Sources */,
 				CE04E62422E2AD20007B6B90 /* TokenJwtDao.swift in Sources */,
 				CE04E62C22E2B2C7007B6B90 /* Helper.swift in Sources */,

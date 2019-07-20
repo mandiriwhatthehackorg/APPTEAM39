@@ -18,8 +18,14 @@ class SignInViewController: UIViewController {
         self.dismissPage()
     }
     
-   
+    @IBAction func sendOtpAction(_ sender: Any) {
+        VerifikasiViewController.navigateToModule(self)
+    }
     
+    
+    @IBAction func RegistrationAction(_ sender: Any) {
+        SignInViewController.navigateToModule(self)
+    }
 }
 
 
