@@ -493,7 +493,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="8FF-fw-p9k" id="Ttw-NF-23D"/>
                                                 </connections>
@@ -522,7 +522,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="8FF-fw-p9k" id="Tmu-K4-36a"/>
                                                 </connections>
@@ -551,7 +551,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="8FF-fw-p9k" id="w2F-N6-XKo"/>
                                                 </connections>
@@ -580,7 +580,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="8FF-fw-p9k" id="cba-zq-SdL"/>
                                                 </connections>
@@ -609,7 +609,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="8FF-fw-p9k" id="3yB-lr-vkh"/>
                                                 </connections>
@@ -718,7 +718,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="kFK-K2-z4o" id="pK6-eS-XgB"/>
                                                 </connections>
@@ -747,7 +747,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="kFK-K2-z4o" id="0sp-la-jGS"/>
                                                 </connections>
@@ -776,7 +776,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="kFK-K2-z4o" id="1y0-FR-Rv5"/>
                                                 </connections>
@@ -805,7 +805,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="kFK-K2-z4o" id="veY-YC-z81"/>
                                                 </connections>
@@ -834,7 +834,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="phonePad" secureTextEntry="YES"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="kFK-K2-z4o" id="zVV-dj-xhy"/>
                                                 </connections>
