@@ -35,7 +35,7 @@ class TabunganViewController: UIViewController {
     }
     
     @IBAction func settingsAction(_ sender: Any) {
-        
+        PengaturanViewController.navigateToModule(self)
     }
     
 }
