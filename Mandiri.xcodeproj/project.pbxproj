@@ -53,6 +53,8 @@
 		CEABE1EB22E36590003D7B26 /* cardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */; };
 		CEABE1ED22E37066003D7B26 /* HowCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1EC22E37066003D7B26 /* HowCollection.xib */; };
 		CEABE1EF22E37142003D7B26 /* HowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */; };
+		CEABE1F122E38BF9003D7B26 /* plusCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1F022E38BF9003D7B26 /* plusCollection.xib */; };
+		CEABE1F322E38C12003D7B26 /* PlusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */; };
 		F38FB93E0F93AA9FC1E8A98A /* Pods_Mandiri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C936D2FC94145BCC0B10B5 /* Pods_Mandiri.framework */; };
 /* End PBXBuildFile section */
 
@@ -120,6 +122,8 @@
 		CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEABE1EC22E37066003D7B26 /* HowCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowCollection.xib; sourceTree = "<group>"; };
 		CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowCollectionViewCell.swift; sourceTree = "<group>"; };
+		CEABE1F022E38BF9003D7B26 /* plusCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = plusCollection.xib; sourceTree = "<group>"; };
+		CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3DBD4571617C43630275F01 /* Pods-MandiriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.debug.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F73D39990F3066EFF78C5825 /* Pods-MandiriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.release.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -406,6 +410,7 @@
 				CEABE1DF22E350E6003D7B26 /* Dashboard.storyboard */,
 				CEABE1E622E35DF4003D7B26 /* cardCollection.xib */,
 				CEABE1EC22E37066003D7B26 /* HowCollection.xib */,
+				CEABE1F022E38BF9003D7B26 /* plusCollection.xib */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				CEABE1E422E35A35003D7B26 /* HomeViewController.swift */,
 				CEABE1EA22E36590003D7B26 /* cardCollectionViewCell.swift */,
 				CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */,
+				CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -512,6 +518,7 @@
 				CE04E5F922E22754007B6B90 /* Assets.xcassets in Resources */,
 				CEABE1E022E350E6003D7B26 /* Dashboard.storyboard in Resources */,
 				CE04E5F722E22753007B6B90 /* Main.storyboard in Resources */,
+				CEABE1F122E38BF9003D7B26 /* plusCollection.xib in Resources */,
 				CE04E63C22E2C9D7007B6B90 /* Onboarding.storyboard in Resources */,
 				CE04E64022E2CC4A007B6B90 /* onboardingView.xib in Resources */,
 				CE04E65022E2F44D007B6B90 /* Activate.storyboard in Resources */,
@@ -629,6 +636,7 @@
 				CE04E62422E2AD20007B6B90 /* TokenJwtDao.swift in Sources */,
 				CE04E62C22E2B2C7007B6B90 /* Helper.swift in Sources */,
 				CEABE1E322E3533E003D7B26 /* DaftarinKartuViewController.swift in Sources */,
+				CEABE1F322E38C12003D7B26 /* PlusCollectionViewCell.swift in Sources */,
 				CE04E65422E2F64C007B6B90 /* ActivateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -10,7 +10,7 @@ import UIKit
 
 class OnboardingViewController: UIViewController {
     var timer: Timer?
-    var viewModel: [OnBoardingModel.viewModel] = [OnBoardingModel.viewModel(image: "icon_saving", title: "Saving", description: ""), OnBoardingModel.viewModel(image: "icon_investment", title: "Invest", description: ""), OnBoardingModel.viewModel(image: "icon_join", title: "Join Now!", description: "")]
+    var viewModel: [OnBoardingModel.viewModel] = [OnBoardingModel.viewModel(image: "icon_saving", title: "Saving", description: "Kamu bisa simpan uang dari tiap transaksi sebagai tabungan loh!"), OnBoardingModel.viewModel(image: "icon_investment", title: "Invest", description: "Dan bisa dipergunakan untuk investasi juga, tinggal pilih level risknya aja!"), OnBoardingModel.viewModel(image: "icon_join", title: "Join Now!", description: "Pengen langsung ngerasain aplikasinya? Gabung sekarang yuk!")]
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collection: UICollectionView!
     override func viewDidLoad() {

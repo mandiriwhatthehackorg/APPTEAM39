@@ -25,6 +25,7 @@ class HomeViewController: UIViewController {
         self.pageControl.numberOfPages = 2
         carColection.register(UINib(nibName: IdentifierCell.cardCollection, bundle: nil), forCellWithReuseIdentifier:  IdentifierCell.cardCollection)
         howCollection.register(UINib(nibName: IdentifierCell.HowCollection, bundle: nil), forCellWithReuseIdentifier:  IdentifierCell.HowCollection)
+        carColection.register(UINib(nibName: IdentifierCell.plusCollection, bundle: nil), forCellWithReuseIdentifier:  IdentifierCell.plusCollection)
 
     }
 }
@@ -41,8 +42,14 @@ extension HomeViewController: UICollectionViewDelegate , UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == self.carColection {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier:  IdentifierCell.cardCollection, for: indexPath) as! cardCollectionViewCell
-            return cell
+            if indexPath.row == 0 {
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier:  IdentifierCell.cardCollection, for: indexPath) as! cardCollectionViewCell
+                return cell
+            }else{
+                let cell = collectionView.dequeueReusableCell(withReuseIdentifier:  IdentifierCell.plusCollection, for: indexPath) as! PlusCollectionViewCell
+                return cell
+            }
+           
         }else{
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier:  IdentifierCell.HowCollection, for: indexPath) as! HowCollectionViewCell
             return cell

@@ -37,6 +37,7 @@ def view
   pod 'FittedSheets'
   pod 'SwiftRichString'
   pod 'Cosmos', '~> 18.0'
+  pod 'XLPagerTabStrip', '~> 9.0'
   
 end
 

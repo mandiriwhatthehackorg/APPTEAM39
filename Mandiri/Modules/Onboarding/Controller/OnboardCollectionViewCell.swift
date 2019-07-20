@@ -30,7 +30,7 @@ class OnboardCollectionViewCell: UICollectionViewCell {
         }
         self.imageTitle.image = UIImage(named: viewModel.image)
         self.titleText.text = viewModel.title
-//        self.descriptionText.text = viewModel.description
+        self.descriptionText.text = viewModel.description
     }
     
     

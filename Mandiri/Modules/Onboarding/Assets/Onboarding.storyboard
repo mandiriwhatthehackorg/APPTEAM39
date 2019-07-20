@@ -46,7 +46,7 @@
                                 <rect key="frame" x="168" y="590" width="39" height="37"/>
                             </pageControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.23921568627450979" blue="0.47450980392156861" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="controlAccentColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
                             <constraint firstItem="b2F-T3-iaO" firstAttribute="bottom" secondItem="RuJ-ap-hYh" secondAttribute="bottom" id="3WC-Ik-pl3"/>
                             <constraint firstItem="RuJ-ap-hYh" firstAttribute="top" secondItem="b2F-T3-iaO" secondAttribute="top" id="5YD-Bs-SMk"/>
