@@ -56,6 +56,7 @@
 		CEABE1F122E38BF9003D7B26 /* plusCollection.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEABE1F022E38BF9003D7B26 /* plusCollection.xib */; };
 		CEABE1F322E38C12003D7B26 /* PlusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */; };
 		CEABE1F522E3924A003D7B26 /* TabunganViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1F422E3924A003D7B26 /* TabunganViewController.swift */; };
+		CEABE1F822E3A3D0003D7B26 /* FormInvestasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEABE1F722E3A3D0003D7B26 /* FormInvestasiViewController.swift */; };
 		F38FB93E0F93AA9FC1E8A98A /* Pods_Mandiri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C936D2FC94145BCC0B10B5 /* Pods_Mandiri.framework */; };
 /* End PBXBuildFile section */
 
@@ -126,6 +127,7 @@
 		CEABE1F022E38BF9003D7B26 /* plusCollection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = plusCollection.xib; sourceTree = "<group>"; };
 		CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusCollectionViewCell.swift; sourceTree = "<group>"; };
 		CEABE1F422E3924A003D7B26 /* TabunganViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabunganViewController.swift; sourceTree = "<group>"; };
+		CEABE1F722E3A3D0003D7B26 /* FormInvestasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormInvestasiViewController.swift; sourceTree = "<group>"; };
 		D3DBD4571617C43630275F01 /* Pods-MandiriTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.debug.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F73D39990F3066EFF78C5825 /* Pods-MandiriTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandiriTests.release.xcconfig"; path = "Target Support Files/Pods-MandiriTests/Pods-MandiriTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -426,6 +428,7 @@
 				CEABE1EE22E37142003D7B26 /* HowCollectionViewCell.swift */,
 				CEABE1F222E38C12003D7B26 /* PlusCollectionViewCell.swift */,
 				CEABE1F422E3924A003D7B26 /* TabunganViewController.swift */,
+				CEABE1F722E3A3D0003D7B26 /* FormInvestasiViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -629,6 +632,7 @@
 				CE04E62A22E2B2A1007B6B90 /* Preference.swift in Sources */,
 				CE04E65C22E31881007B6B90 /* ReviewResultViewController.swift in Sources */,
 				CE04E61E22E2AB6C007B6B90 /* BaseMappableNetworkRequest.swift in Sources */,
+				CEABE1F822E3A3D0003D7B26 /* FormInvestasiViewController.swift in Sources */,
 				CE04E62022E2ABA6007B6B90 /* BaseHelper.swift in Sources */,
 				CE04E61322E2AA75007B6B90 /* Restful.swift in Sources */,
 				CE04E63422E2B521007B6B90 /* BaseAssembly.swift in Sources */,
