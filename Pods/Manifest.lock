@@ -1,0 +1,97 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Cosmos (18.0.1)
+  - DLRadioButton (1.4.12)
+  - EasyTipView (2.0.4)
+  - FittedSheets (1.4.4)
+  - IQKeyboardManagerSwift (6.2.1)
+  - MultilineTextField (0.2.3)
+  - netfox (1.15.1)
+  - ObjectMapper (3.4.2)
+  - RxAlamofire (4.3.0):
+    - RxAlamofire/Core (= 4.3.0)
+  - RxAlamofire/Core (4.3.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4)
+  - RxAtomic (4.4.2)
+  - RxCocoa (4.5.0):
+    - RxSwift (>= 4.4.2, ~> 4.4)
+  - RxSwift (4.5.0)
+  - SBPickerSelector (1.2.0)
+  - SkyFloatingLabelTextField (3.7.0)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - SwiftRichString (3.0.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2.0)
+  - Cosmos (~> 18.0)
+  - DLRadioButton (~> 1.4.12)
+  - EasyTipView (~> 2.0.0)
+  - FittedSheets
+  - IQKeyboardManagerSwift (~> 6.2.0)
+  - MultilineTextField
+  - netfox
+  - ObjectMapper (~> 3.4.1)
+  - RxAlamofire (~> 4.3.0)
+  - RxAtomic
+  - RxCocoa (~> 4.0)
+  - RxSwift (~> 4.0)
+  - SBPickerSelector (~> 1.2.0)
+  - SkyFloatingLabelTextField (~> 3.0)
+  - SwiftMessages (~> 6.0.0)
+  - SwiftRichString
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - Cosmos
+    - DLRadioButton
+    - EasyTipView
+    - FittedSheets
+    - IQKeyboardManagerSwift
+    - MultilineTextField
+    - netfox
+    - ObjectMapper
+    - RxAlamofire
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - SBPickerSelector
+    - SkyFloatingLabelTextField
+    - SwiftMessages
+    - SwiftRichString
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+  EasyTipView: 4f8beae0a82db2ca4a9b5fd658785fc5f61d296b
+  FittedSheets: f56b96c7bd81585d9a183c2a06abe176fa0b55db
+  IQKeyboardManagerSwift: 0f0ae8935360b4003e6ea1ac7c19898f01e2f7c7
+  MultilineTextField: 10965d9c3e05a182181bd7971eb009c7607001ae
+  netfox: 20fd3e654fc5d67148d8eb8f384514f9559aa8bd
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RxAlamofire: 09624d0f2d48ed8b686e4eb4cf68e28cbd2df556
+  RxAtomic: d00e97c10db88c6f08540e0bf2752fc5a2404167
+  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
+  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
+  SBPickerSelector: ca8defc713bf229a35a06100ba2e6e96c424ac6a
+  SkyFloatingLabelTextField: 4b46db0ab1ccde0919cded29c656e6b4805eda04
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  SwiftRichString: 5cb4860df3dc8e4d9087d7b948b210177342c3da
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: a07f376d5aff2bed13f7bdf164bfcc58d8fc2c5c
+
+COCOAPODS: 1.7.4
