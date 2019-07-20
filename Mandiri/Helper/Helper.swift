@@ -103,4 +103,7 @@ enum IdentifierCell {
 
 enum BasePrefKey {
     static let ISBACKCAMERA         = "ISBACKCAMERA"
+    static let KTPIMAGE         = "KTPIMAGE"
+    static let SELFIEIMAGE         = "SELFIEIMAGE"
+
 }
